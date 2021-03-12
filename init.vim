@@ -101,15 +101,15 @@ nnoremap <space> /
 " Moving to the first char instead of the start of the line with 0
 nnoremap 0 ^
 
+" Load html and css template
+nnoremap <leader>html :.!html<cr>
+nnoremap <leader>css :.!css<cr>
+
 " Source init.vim
 nnoremap <leader>s :so $HOME/.config/nvim/init.vim<cr>
 
 " Save file
 nnoremap <leader>w :w<cr>
-
-" HTML AND CSS SNIPPETS
-nnoremap <leader>html :-1read $HOME/.config/nvim/templates/template.html<cr>
-nnoremap <leader>css :-1read $HOME/.config/nvim/templates/template.css<cr>
 
 " Convert word into html tag
 nnoremap <leader>t yiwi<<esc>ea></<esc>pa><esc>cit
